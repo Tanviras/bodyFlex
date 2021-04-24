@@ -1,0 +1,12 @@
+.choiceCard{
+    height:300px;
+    padding-left:15px;
+    padding-right:15px;
+}
+
+.choiceCardSize{
+    /* margin: 30px; */
+    height:300px;
+    /* border:1px solid red; */
+    padding-top:50px;
+}

@@ -1,23 +1,9 @@
-.service-card {
-    border: 1px solid black !important;
-    border-radius: 10px;
-    height:400px;
-    margin: 30px;
-  }
-  
-  /* .Link {
-    text-decoration: none;
-  } */
+.serviceCard{
 
+}
 
-  .serviceImage{
-    height:100px;
-    width:90px;
-  }
-
-  .cardContents{
-    padding-top:180px;
-    padding-left:10px;
-    padding-right:10px;
-  }
+.serviceCardSize{
+height:390px;
+padding:160px 0px;
+}
 

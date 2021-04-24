@@ -5,27 +5,33 @@ const ServicesCard = (props) => {
     const { image,bgimage, title, description, id } = props.srvData;
 
     return (
-        <div style={{  paddingRight:35,paddingLeft:35 }}
-             className="col-md-4 mx-auto"
+        <div className="col-md-4 serviceCard">
+        <div className="serviceCardSize"
+        style={{
+            backgroundImage:`url(${bgimage})`,
+            backgroundPosition:'center',
+            backgroundRepeat:'no-repeat',
+            backgroundSize:'100% 100%'}}
         >
-
-              
-
-<div className="row card text-center service-card"  
->
-
-
-<div class="card-body cardContents" style={{backgroundImage: `url(${bgimage})`,backgroundSize: "100% 100%",backgroundPosition:'center'}}>
-    <img src={image} alt='kire image ashe na kn' className='serviceImage'/>
-    <h5 class="card-title text-white">{title}</h5>
-    <p class="card-text text-white">{description}</p>
-</div> 
+              <img
+                 style={{ width: 74,height:85 }}
+                 className="mx-auto"
+                 src={image}
+                 alt=''
+             />
 
 
+               <div className=" card-body">
+                    <h4 style={{ fontWeight: 800 }} className="card-title text-white">
+                        {title}
+                    </h4>
+                    <p className="card-text text-white">{description}</p>
+                </div>
+            
 
-</div>
+ 
 
-
+        </div>
         </div>
     );
 };

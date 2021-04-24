@@ -1,6 +1,6 @@
 import React from 'react';
 import ServicesCard from '../ServicesCard/ServicesCard';
-
+import './Services.css';
 
 const Services = () => {
     const servicesData = [
@@ -30,15 +30,17 @@ const Services = () => {
 
     ]
     return (
-        <div id="services" style={{ marginTop: 60 }}>
+        <div style={{paddingLeft:115,paddingRight:115,marginBottom:100}}>
 
-            <div className="row justify-content-around">
+            <div className="row text-center justify-content-around">
                {
                    servicesData.map(srvData=>
-                   <ServicesCard key={srvData.id} srvData={srvData}></ServicesCard>
+                   <ServicesCard key={srvData.id} srvData={srvData}>
+                   </ServicesCard>
                    )
                }
             </div>
+            
         </div>
 
     );
