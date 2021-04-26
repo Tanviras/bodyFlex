@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebookF, faInstagram, faGooglePlusG } from '@fortawesome/free-brands-svg-icons';
 import './Footer.css';
 import FooterCol from '../FooterCol/FooterCol';
-import logo from '../../Image & Icon/bodyflexGym-removebg.png';
+import logo from '../../../Image & Icon/bodyflexGym-removebg.png';
 
 const Footer = () => {
 

@@ -1,0 +1,17 @@
+.cardSize{
+    height:600px;
+    padding-top:35px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.purchase{
+    background-color: #eeae0c;
+    border:none;
+    width: 140px;
+    height:55px;
+    font-size:128%;
+    letter-spacing: -1px;
+}

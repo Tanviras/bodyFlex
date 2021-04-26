@@ -1,21 +1,59 @@
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+} from "react-router-dom";
 import './App.css';
-import AboutUs from './Components/AboutUs/AboutUs';
-import Footer from './Components/Footer/Footer';
-import Home from './Components/Home/Home';
-import Services from './Components/Services/Services';
-import TrainingPrograms from './Components/TrainingPrograms/TrainingPrograms';
-import WhyChooseUs from './Components/WhyChooseUs/WhyChooseUs';
+import GymMembership from "./Components/GymMembership/GymMembership/GymMembership";
+import Home from './Components/Home/Home/Home';
+import OurClasses from "./Components/OurClasses/OurClasses/OurClasses";
+import Pricing from "./Components/Pricing/Pricing/Pricing";
+
+
+
 
 function App() {
   return (
     <div>
+   
+
+      <Router>
+      <Switch>
+
+      <Route exact path='/'>
       <Home></Home>
-      <Services></Services>
-      <AboutUs></AboutUs>
-      <TrainingPrograms></TrainingPrograms>
-      <WhyChooseUs></WhyChooseUs>
-      <Footer></Footer>
-    </div>
+      </Route>
+
+      <Route path='/home'>
+      <Home></Home>
+      </Route>
+
+      <Route path='/ourClasses'>
+      <OurClasses></OurClasses>
+      </Route>
+
+      <Route path='/pricing'>
+      <Pricing></Pricing>
+      </Route>
+
+      <Route path='/membership'>
+      <GymMembership></GymMembership>
+      </Route>
+      
+
+      </Switch>
+      </Router>
+
+
+      
+      </div>
+    
+
+          
+          
+          
+
+       
   );
 }
 

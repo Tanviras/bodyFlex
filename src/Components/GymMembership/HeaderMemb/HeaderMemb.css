@@ -1,0 +1,12 @@
+.member-container{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 30px;
+    margin-bottom:100px;
+    height: 685px;
+
+    background-image: url('../../../Image & Icon/background3.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+}

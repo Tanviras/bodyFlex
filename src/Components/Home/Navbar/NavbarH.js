@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../../Image & Icon//bodyflexGym-removebg.png';
+import logo from '../../../Image & Icon/bodyflexGym-removebg.png';
 import { Nav, Navbar} from "react-bootstrap";
 import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
@@ -10,14 +10,14 @@ const NavbarH = () => {
         <div>
             <Navbar bg="transparent" expand="lg">
 
-                <Navbar.Brand href="#home">
-                    {/* <Link to="/home"> */}
+                <Navbar.Brand href="/home">
+                    <Link to="/home">
                         <img
                             className="navbar-brand logo"
                             src={logo}
                             alt="gorilla_gym"
                         />
-                    {/* </Link> */}
+                    </Link>
                 </Navbar.Brand>
 
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -26,12 +26,11 @@ const NavbarH = () => {
 
 
                         <Nav.Item className='navBarSpacing'>
-                            {/* <Link className="nav-link mr-5" to="/"> */}
+                            <Link className="nav-link mr-5" to="/">
                             <div className="nav-link mr-5  text-white">
                             Home
                             </div>
-                                
-                            {/* </Link> */}
+                            </Link>
                         </Nav.Item>
 
                         <Nav.Item className='navBarSpacing'>
@@ -39,21 +38,20 @@ const NavbarH = () => {
                                <div className="nav-link mr-5  text-white">
                                Services
                                </div>
-                              
                             {/* </HashLink> */}
                         </Nav.Item>
 
                         <Nav.Item className='navBarSpacing'>
-                            {/* <HashLink className="nav-link mr-5" to="/#portfolio"> */}
+                            <Link className="nav-link mr-5" to="/ourClasses">
                                <div className="nav-link mr-5  text-white">
                                Our Classes
                                </div>
-                            {/* </HashLink> */}
+                            </Link>
                         </Nav.Item>
 
 
                         <Nav.Item className='navBarSpacing'>
-                            {/* <HashLink className="nav-link mr-5" to="/#reviews"> */}
+                            {/* <HashLink className="nav-link mr-5" to="/#aboutUs"> */}
                                
                                 <div className="nav-link mr-5  text-white">
                                 About us
@@ -73,22 +71,21 @@ const NavbarH = () => {
 
 
                         <Nav.Item className='navBarSpacing'>
-                            {/* <Link className="nav-link mr-5" to="/dashboard"> */}
-                              
+                            <Link className="nav-link mr-5" to="/pricing">                            
                             <div className="nav-link mr-5  text-white">
                             Pricing
-                               </div>
-                            {/* </Link> */}
+                            </div>
+                            </Link>
                         </Nav.Item>
 
 
 
                         <Nav.Item className='navBarSpacing'>
-                            {/* <Link className="nav-link mr-5" to="/dashboard"> */}
+                        <Link className="nav-link mr-5" to="/membership">   
                             <div className="nav-link mr-5  text-white">
-                            Contact us
+                            Membership
                                </div>
-                            {/* </Link> */}
+                               </Link>
                         </Nav.Item>
 
 
