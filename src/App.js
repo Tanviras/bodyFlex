@@ -36,7 +36,7 @@ function App() {
       <Pricing></Pricing>
       </Route>
 
-      <Route path='/membership'>
+      <Route path='/membership/:classId'>
       <GymMembership></GymMembership>
       </Route>
       

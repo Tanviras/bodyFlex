@@ -2,13 +2,18 @@ import React from 'react';
 import './PricingListCard.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCheck } from '@fortawesome/free-solid-svg-icons';
-
+import { Link } from "react-router-dom";
 
 const PricingListCard = (props) => {
     const {id,title,value,bgImage}=props.prc;
 
     return (
         <div class="col">
+
+      <Link
+        style={{ textDecoration: "none", color: "black" }}
+        to={"/membership/" + id}
+      >
         <div class="card cardSize"
         style={{
             backgroundImage:`url(${bgImage})`,
@@ -39,8 +44,10 @@ const PricingListCard = (props) => {
                 
 
             </div>
+            {/* card-body */}
 
         </div>
+        </Link>
     </div>
     );
 };
