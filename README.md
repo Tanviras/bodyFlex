@@ -6,8 +6,7 @@ Body Flex Gym is a fron-end website which serves the needs of fitness-aware peop
 
 <h2>The source code is uploaded at two parts in two repositories.</h2>
 <b>Live Link:</b> https://aircnc-8c1bd.web.app <br><br>
-<b>Client:</b> https://github.com/Tanviras/airCNC-client  <br><br>
-<b>Server:</b> https://github.com/Tanviras/airCNC-server
+<b>Client:</b> https://github.com/Tanviras/bodyFlex  <br><br>
 
 <h2>Main Features</h2>
 <ul>
