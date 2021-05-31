@@ -9,7 +9,6 @@ const Step3 = ({activeStep,steps,handleNext}) => {
 
             <button class="btn btn-primary" onClick={handleNext}>
                 {activeStep === steps.length ? 'Back to home page' : 'Complete membership'}
-               
             </button>
         </div>
     );

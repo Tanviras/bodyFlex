@@ -73,8 +73,6 @@ const SimpleCardForm = ({ activeStep, steps, handleNext }) => {
       // handlePayment(paymentMethod.id)
     }
 
-
-
   };
 
 
