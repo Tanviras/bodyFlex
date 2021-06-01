@@ -3,7 +3,7 @@ import './ClassListCard.css';
 import { Link } from "react-router-dom";
 
 const ClassListCard = (props) => {
-    const { id, image, title } = props.cls;
+    const {image, title } = props.cls;
 
     return (
         <div class="col classCard">

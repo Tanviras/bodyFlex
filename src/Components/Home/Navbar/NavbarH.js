@@ -1,8 +1,7 @@
 import React from 'react';
 import logo from '../../../Image & Icon/bodyflexGym-removebg.png';
 import { Nav, Navbar } from "react-bootstrap";
-import { Link } from "react-router-dom";
-import { HashLink } from "react-router-hash-link";
+import { HashLink as Link } from "react-router-hash-link";
 import './NavbarH.css';
 
 const NavbarH = () => {
@@ -20,20 +19,33 @@ const NavbarH = () => {
                     </Link>
                 </Navbar.Brand>
 
+               
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
+               
                 <Navbar.Collapse id="basic-navbar-nav">
+
+                   
+
+                  
                     <Nav className="ml-auto">
 
 
-                        <Nav.Item className='navBarSpacing'>
+<Nav.Item className='navBarSpacing bameshor'>
                             <Link className="nav-link mr-5" to="/">
                                 <div className="nav-link mr-5  text-white">
                                     Home
-                            </div>
+                                </div>
                             </Link>
                         </Nav.Item>
 
 
+                        <Nav.Item className='navBarSpacing'>
+                            <Link className="nav-link mr-5" to="/home#aboutUs">
+                                <div className="nav-link mr-5  text-white">
+                                    About us
+                                </div>
+                            </Link>
+                        </Nav.Item>
 
                         <Nav.Item className='navBarSpacing'>
                             <Link className="nav-link mr-5" to="/ourClasses">
@@ -45,45 +57,27 @@ const NavbarH = () => {
 
 
                         <Nav.Item className='navBarSpacing'>
-                            {/* <HashLink className="nav-link mr-5" to="/#aboutUs"> */}
-
-                            <div className="nav-link mr-5  text-white">
-                                About us
-                               </div>
-                            {/* </HashLink> */}
-                        </Nav.Item>
-
-
-                        <Nav.Item className='navBarSpacing'>
-                            {/* <HashLink className="nav-link mr-5" to="/#footer"> */}
-                            <div className="nav-link mr-5  text-white">
-                                Blogs
-                               </div>
-                            {/* </HashLink> */}
-                        </Nav.Item>
-
-
-
-                        <Nav.Item className='navBarSpacing'>
-                            <Link className="nav-link mr-5" to="/pricing">
+                            <Link className="nav-link mr-5" to="/home#footer">
                                 <div className="nav-link mr-5  text-white">
-                                    Pricing
-                            </div>
+                                    Blogs
+                               </div>
                             </Link>
                         </Nav.Item>
 
 
-
                         <Nav.Item className='navBarSpacing'>
-                            {/* <HashLink className="nav-link mr-5" to="/#footer"> */}
-                            <div className="nav-link mr-5  text-white">
-                                Contacts
+                            <Link className="nav-link mr-5" to="/home#footer">
+                                <div className="nav-link mr-5  text-white">
+                                    Contacts
                             </div>
-                            {/* </HashLink> */}
+                            </Link>
                         </Nav.Item>
+
+                       
 
 
                     </Nav>
+                
                 </Navbar.Collapse>
 
 

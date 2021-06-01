@@ -12,10 +12,18 @@ const Home = () => {
          <div> 
              <Header></Header>
              <Services></Services>
+
+             <div id="aboutUs">
              <AboutUs></AboutUs>
+             </div>
+
              <TrainingPrograms></TrainingPrograms>
              <WhyChooseUs></WhyChooseUs>
+
+             <div id='footer'>
              <Footer></Footer>
+             </div>
+            
         </div>
        
     );
