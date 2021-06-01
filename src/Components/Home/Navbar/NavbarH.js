@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../../../Image & Icon/bodyflexGym-removebg.png';
+import logo from '../../../Image & Icon/logoFinal.png';
 import { Nav, Navbar } from "react-bootstrap";
 import { HashLink as Link } from "react-router-hash-link";
 import './NavbarH.css';

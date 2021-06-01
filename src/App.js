@@ -5,7 +5,6 @@ import {
 } from "react-router-dom";
 import './App.css';
 import GymMembership from "./Components/GymMembership/GymMembership/GymMembership";
-import AboutUs from "./Components/Home/AboutUs/AboutUs";
 import Home from './Components/Home/Home/Home';
 import OurClasses from "./Components/OurClasses/OurClasses/OurClasses";
 import Pricing from "./Components/Pricing/Pricing/Pricing";
