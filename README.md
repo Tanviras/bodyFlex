@@ -10,7 +10,6 @@ Body Flex Gym is a front-end website which serves the needs of fitness-aware peo
 
 <h2>Main Features</h2>
 <ul>
-<li>Client can search for homes in their desired location</li>
 <li>Customers can select the service provided by the gym</li>
 <li>Also, they can select a suitable billing plan</li>
 <li>Finally, a payment gateway is established to pay for the service</li>
