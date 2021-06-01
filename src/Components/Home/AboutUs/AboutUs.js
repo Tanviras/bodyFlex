@@ -7,11 +7,11 @@ const AboutUs = () => {
         <div className="container-fluid">
             <div className='row aboutUs'>
 
-                <div className="col-md-6 col-sm-6">
+                <div className="col-md-6">
                     <img src={aboutUsPhoto} alt='' className='aboutUsPhotoSize' />
                 </div>
 
-                <div className="col-md-6 col-sm-6">
+                <div className="col-md-6">
                     <h1 style={{ color: '#e6e6e6' }}>ABOUT US</h1>
                     <h2 style={{ color: '#eeae0c' }}>WE ARE HERE TO DREAM!</h2>
                     <br />

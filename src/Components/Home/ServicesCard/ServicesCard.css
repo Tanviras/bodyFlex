@@ -1,9 +1,21 @@
-.serviceCard{
-
+.services__card{
+    height:500px;
 }
 
-.serviceCardSize{
-height:390px;
-padding:160px 0px;
+.classBody{
+    background-color: #eeae0c;
+    height:50px;
+    padding-top:10px;
+    padding-bottom:10px;
+    position:relative;
+    top:450px;
 }
 
+.cardLink{
+    text-decoration:none;
+    color:black;
+}
+
+.services__context{
+    padding-top: 160px;
+}
