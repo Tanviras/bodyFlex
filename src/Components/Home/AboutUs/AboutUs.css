@@ -5,19 +5,7 @@
     margin-bottom:100px;
 }
 
-.aboutUsPhotoSize{
+.aboutUs__photo{
     height:500px;
-    /* width:80%; */
+    max-width:100%;
 }
-
-/* .aboutus__photo{
-    display:flex;
-    flex-direction: column;
-    flex:0.41;
-}
-
-.aboutus__text{
-    display:flex;
-    flex-direction: column;
-    flex:0.59;
-} */

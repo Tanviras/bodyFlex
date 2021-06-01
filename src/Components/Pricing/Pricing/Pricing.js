@@ -6,7 +6,6 @@ import Footer from '../../Shared/Footer/Footer';
 const Pricing = () => {
     return (
         <div>
-            {/* home */}
             <HeaderPricing></HeaderPricing>
             <PricingList></PricingList>
             <Footer></Footer>

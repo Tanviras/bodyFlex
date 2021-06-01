@@ -1,34 +1,14 @@
-.service-card {
-    border: 1px solid black !important;
-    /* border-radius: 10px; */
-    height:400px;
-    margin: 30px;
-  }
-  
-  /* .Link {
-    text-decoration: none;
-  } */
+.tp__card{
+  height:450px;
+}
 
 
-  /* .cardContents{
-    padding-top:180px;
-    padding-left:10px;
-    padding-right:10px;
-  } */
-
-  .cardTitle{
-    background-color: #eeae0c;
-    width:fit-content;
-    border-radius: 5px;
-    height:60px;
-     padding-top:15px;
-    padding-bottom:15px;
-    padding-left:10px;
-    padding-right: 10px;
-    /* margin-top:100px;  */
-  }
-
-  .tpCardSize{
-    height:390px;
-    padding-top:260px;
-    }
+.tp__title{
+  background-color: #eeae0c;
+  width:fit-content;
+  border-radius: 5px;
+  height:60px;
+  padding: 15px 10px 15px 10px;
+  position:relative;
+  top:387px;
+}

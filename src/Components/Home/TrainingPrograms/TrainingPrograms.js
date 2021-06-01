@@ -7,28 +7,28 @@ const TrainingPrograms = () => {
         {
             id: 'ABCDEFGHIJKL',
             image: 'https://i.imgur.com/I2T3uyZ.png',
-            title: 'YOGA TRAINING SESSION'
+            title: 'YOGA TRAINING'
         },
         {
             id: 'HIJKLMNOPQRST',
             image: 'https://i.imgur.com/dnYFuGQ.jpg',
-            title: 'CARDIO TRAINING SESSION'
+            title: 'CARDIO TRAINING'
         }
     ]
     return (
-        <div style={{ paddingLeft: 115, paddingRight: 115, marginBottom: 100 ,marginTop:100}}>
+        <div style={{ paddingLeft: 100, paddingRight: 100, marginBottom: 100 }}>
 
             <h1 className='text-center mb-5'>TRAINING <span style={{ color: '#eeae0c' }}>PROGRAMS</span> </h1>
+            <div class="row row-cols-1 row-cols-md-2 g-3">
 
-            <div className="row text-center justify-content-around">
                 {
                     trainingPrograms.map(trainingProgram =>
                         <TrainingProgramsCard key={trainingProgram.id} trainingProgram={trainingProgram}>
                         </TrainingProgramsCard>
                     )
                 }
-            </div>
 
+            </div>
         </div>
     );
 };
