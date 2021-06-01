@@ -1,7 +1,7 @@
 <h1>Body Flex Gym</h1>
 
 <p>
-Body Flex Gym is a fron-end website which serves the needs of fitness-aware people. Everything they need to find from their local gym, they will find it here. 
+Body Flex Gym is a front-end website which serves the needs of fitness-aware people. Everything they need to find from their local gym, they will find it here. 
 </p>
 
 <h2>The source code is uploaded at two parts in two repositories.</h2>
